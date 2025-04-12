@@ -1,0 +1,31 @@
+Header Component:
+    Logo
+    Links to different pages (map "allAnimals" from data )
+    useState for burger management
+
+
+Sidebar Component: // useState from App()
+    Update animals depending on page with useState from App() (data from data.js)
+    Create a new uniqAnimal 
+    uniqAnimal.map
+
+    Show/Hide Sidebar:
+        useState (isOpen)
+        handleClick 
+
+
+AnimalList Components: 
+    Update animals depending on page with useState from App() (data from data.js)
+    Map items
+
+
+AnimalDetails Components:
+    get parameters from url
+    get the animal from the object data.js
+    Map items
+
+
+Footer Component:
+    Logo
+    <h3> Site name </h3>
+    <p> Coopyright </p>

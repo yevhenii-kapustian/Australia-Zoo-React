@@ -1,0 +1,52 @@
+.animalListContainer {
+    padding: 24px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.animalList {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.animalListTitle {
+    padding: 50px 0;
+}
+
+.animalListTitle h2 {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.animalListTitle span {
+    text-transform: capitalize;
+}
+
+.animalListItems {
+    padding: 25px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 15px;
+}
+
+.animalListItems img {
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.animalListItems h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.animalListItems a {
+    color: black;
+    text-decoration: underline;
+}

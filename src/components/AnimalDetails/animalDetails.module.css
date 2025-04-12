@@ -1,0 +1,49 @@
+.animalDetails {
+    margin: 50px 50px;
+    padding: 50px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+.animalDetails img {
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.animalDetails h2 {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 10px 0 15px;
+}
+
+.animalDetails a {
+    margin-top: 10px;
+    padding: 8px 24px;
+    color: black;
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.animalDetails a:hover {
+    background-color: rgb(242, 242, 242);
+}
+
+@media screen and (max-width: 800px) {
+    .animalDetails {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .animalDetails {
+        margin: 50px 30px;
+        padding: 50px 30px;
+    }
+    
+}

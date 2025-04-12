@@ -1,0 +1,44 @@
+.homeContainer {
+    position: relative;
+}
+
+.homeImageContainer {
+    position: relative;
+}
+
+.homeImageOpacity {
+    position: absolute;
+    background-color: #0000006a;
+    width: 100%;
+    height: 100vh;
+}
+
+.homeImage {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.homeWelcomeText {
+    padding: 20px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+}
+
+
+.homeWelcomeText h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 500;
+    color: white;
+}
+
+@media screen and (max-width: 500px) {
+    .homeWelcomeText h1 {
+        font-size: 40px;
+    }
+}
