@@ -51,17 +51,6 @@
   transition: transform 0.3s ease-in-out;
 }
 
-.sidebarBackgroundOpen {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100%;
-  background-color: #0000008f;
-  z-index: 900;
-  transition: transform 0.3s ease-in-out;
-}
-
 @media screen and (max-width: 568px) {
   .sidebar {
     width: 50vw;

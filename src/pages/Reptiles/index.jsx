@@ -1,4 +1,3 @@
-import styles from './reptiles.module.css'
 import { useEffect } from 'react'
 import AnimalList from '../../components/AnimalList'
 

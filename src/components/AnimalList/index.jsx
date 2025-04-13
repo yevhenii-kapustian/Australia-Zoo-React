@@ -10,6 +10,7 @@ const AnimalList = ({ currentPage }) => {
             <div className={styles.animalListTitle}>
                 <h2>This is <span>{currentPage}</span> page!</h2>
             </div>
+            
             <div className={styles.animalList}>
                 {animalToShow.map((animal, index) => (
                     <div className={styles.animalListItems} key={index}>

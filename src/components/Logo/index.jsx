@@ -1,4 +1,3 @@
-import styles from './logo.module.css'
 import { getImgUrl } from '../../utils/function'
 
 const Logo = () => {

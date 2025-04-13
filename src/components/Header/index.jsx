@@ -6,13 +6,13 @@ import Logo from '../Logo'
 import { Link } from 'react-router-dom'
 
 const Header = () => {
-  const [showMenu, setShowMenu] = useState(false)
+  const uniqueAnimals = [...new Set(allAnimals.map(item => item.group))]
 
+  const [showMenu, setShowMenu] = useState(false)
   const handleClick = () => {
     setShowMenu(!showMenu)
   }
 
-  const uniqueAnimals = [...new Set(allAnimals.map(item => item.group))]
 
   return (
     <header className={styles.header}>
