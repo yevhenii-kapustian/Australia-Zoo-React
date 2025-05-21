@@ -1,5 +1,6 @@
 .animalListContainer {
-    padding: 24px 0;
+    margin: 24px;
+    padding: 24px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,7 +9,7 @@
 }
 
 .animalList {
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
